@@ -1,0 +1,58 @@
+
+
+.top-container{
+    background-color:blueviolet;
+    padding: 50px 20px 50px 20px;
+}
+
+.container{
+    padding: 20px;
+}
+
+.bottom-container{
+    background-color: #66BFBF;
+    padding: 50px 0 60px;
+}
+
+.btn {
+    background: #11cdd4;
+    border: 1px solid;
+    -webkit-border-radius: 2;
+    -moz-border-radius: 2;
+    border-radius: 2px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    display: block;
+	margin: auto;
+    width: 40%;
+}
+
+.btn:hover {
+    color:darkcyan;
+    border: 1px solid;
+
+}
+
+#teamTable{
+
+    width: 60%;
+    margin: 20px auto;
+}
+
+h1{
+    text-align: center;
+    color:beige;
+}
+
+#finalTeam{
+
+    color:beige;
+}
+
+#yourTeam{
+
+    color:beige;
+}
