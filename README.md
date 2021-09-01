@@ -1,5 +1,5 @@
 # Zaycare-Project
-Project about building a cricket team
+Project about building a cricket team:-
 
 This is the first draft of my project.
 This is a fuctioning website as of now but I'm currently working on the css part. I've used HTML, CSS, Javascript to create this project
