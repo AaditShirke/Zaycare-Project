@@ -1,0 +1,168 @@
+
+
+.top-container{
+    background-image: url('images/top.jpg');
+    padding: 50px 20px 50px 20px;
+    background-size: contain;
+}
+
+.container{
+    padding: 20px;
+
+}
+
+.bottom-container{
+    background-image: url('images/bottom.jpg');
+    background-size: cover;
+    padding: 90px 0px 90px;
+    
+}
+
+#submit {
+ 
+    font-family: 'Montserrat', sans-serif;
+    color:black;
+    font-size: 20px;
+    padding: 5px 20px 10px 20px;
+    text-decoration: none;
+    display: block;
+	margin: auto;
+    width: 40%;
+    
+}
+
+#submit:hover {
+    color:rgb(255, 255, 255);
+    border: 1px solid;
+
+}
+
+.batsmen{
+    
+    opacity: 1;
+}
+
+.innerBatsmen{
+    background-image: url('images/batsman.jpg');
+    background-size: cover;
+    border-radius: 10px;
+    padding: 10px;
+    opacity: 0.7;
+    font-size: 20px;
+    font-style: bold;
+}
+
+.bowlers{
+    
+    opacity: 1;
+    
+
+}
+
+.innerBowlers{
+    background-image: url('images/bowler.jpg');
+    background-size: cover;
+    border-radius: 10px;
+    padding: 10px;
+    opacity:0.7;
+    font-size: 20px;
+}
+
+.wicket-keepers{
+    
+    opacity: 1;
+
+}
+
+.inner-wicket-keeper{
+    background-image: url('images/wicket-keeper.jpg');
+    background-size: cover;
+    border-radius: 10px;
+    padding: 10px;
+    opacity: 0.7;
+    font-size: 20px;
+
+}
+
+.all-rounders{
+    
+    opacity: 1;
+}
+
+.inner-all-rounders{
+    background-image: url('images/all-rounder.jpg');
+    background-size: cover;
+    border-radius: 10px;
+    padding: 10px;
+    opacity: 0.7;
+    font-size: 20px;
+    
+
+}
+
+
+.players{
+    color:lemonchiffon;
+    opacity: 1;
+    background-color: transparent;
+    
+}
+
+.players.hover{
+    background-color: beige;
+    color:black;
+}
+
+.playersButtons{
+
+}
+
+
+#teamTable{
+
+    width: 60%;
+    margin: 20px auto;
+}
+
+h1{
+    text-align: center;
+    color:beige;
+    font-family: 'Russo One', sans-serif;
+    font-size: 70px;
+}
+
+h5{
+    color:black;
+    text-align: center;
+    font-family: 'Russo One', sans-serif;
+}
+
+#bottomText{
+    text-align: center;
+    padding: 15px 15px 5px 15px;
+    color:rgb(5, 48, 28);
+    
+}
+
+
+body{
+    background-image: url('images/stadium.jpg');
+    background-size: cover;
+    color:lemonchiffon;
+}
+
+#finalTeam{
+
+    color:rgb(36, 59, 13);
+}
+
+#yourTeam{
+
+    color:beige;
+
+    position: relative;
+	left: -50%;
+	float: right;
+    padding: 30px;
+
+}

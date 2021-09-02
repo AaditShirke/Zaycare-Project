@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Cricket Team</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+
+
+  </head>
+<body>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <div class = "top-container">
+      <h1>Build Your Dream Cricket Team</h1>
+    </div>
+
+    <div class = "container">
+        <div class="row">
+            <div class="col-sm-3 py-3 batsmen">
+              <h5>BATSMEN</h5>
+              <div class="innerBatsmen">
+              <button type="button" class="list-group-item list-group-item-action  players"><input type = "checkbox" name = "batsman" class = "players" value = "1" onclick="maxBatsmen(0);"> Batsman1</button>
+              <button type="button" class="list-group-item list-group-item-action  players"><input type = "checkbox" name = "batsman" class = "players" value = "2" onclick="maxBatsmen(1);"> Batsman2</button>
+              <button type="button" class="list-group-item list-group-item-action  players"><input type = "checkbox" name = "batsman" class = "players" value = "3" onclick="maxBatsmen(2);"> Batsman3</button>
+              <button type="button" class="list-group-item list-group-item-action  players"><input type = "checkbox" name = "batsman" class = "players" value = "4" onclick="maxBatsmen(3);"> Batsman4</button>
+              <button type="button" class="list-group-item list-group-item-action  players"><input type = "checkbox" name = "batsman" class = "players" value = "5" onclick="maxBatsmen(4);"> Batsman5</button>
+              <button type="button" class="list-group-item list-group-item-action  players"><input type = "checkbox" name = "batsman" class = "players" value = "6" onclick="maxBatsmen(5);"> Batsman6</button>
+              <button type="button" class="list-group-item list-group-item-action  players"><input type = "checkbox" name = "batsman" class = "players" value = "7" onclick="maxBatsmen(6);"> Batsman7</button>
+              <button type="button" class="list-group-item list-group-item-action  players"><input type = "checkbox" name = "batsman" class = "players" value = "8" onclick="maxBatsmen(7);"> Batsman8</button>
+              <button type="button" class="list-group-item list-group-item-action  players"><input type = "checkbox" name = "batsman" class = "players" value = "9" onclick="maxBatsmen(8);"> Batsman9</button>
+              <button type="button" class="list-group-item list-group-item-action  players"><input type = "checkbox" name = "batsman" class = "players" value = "10" onclick="maxBatsmen(9);"> Batsman10</button>
+              <button type="button" class="list-group-item list-group-item-action  players"><input type = "checkbox" name = "batsman" class = "players" value = "11" onclick="maxBatsmen(10);"> Batsman11</button>
+            </div>
+            </div>
+            
+            <div class="col-sm-3 py-3 bowlers">
+              <h5>BOWLERS</h5>
+              <div class="innerBowlers">
+              <button type="button" class="list-group-item list-group-item-action  players"><input type = "checkbox" name = "bowler" class = "players" value = "1" onclick="maxBowlers(0);"> Bowler1</button>
+              <button type="button" class="list-group-item list-group-item-action  players"><input type = "checkbox" name = "bowler" class = "players" value = "2" onclick="maxBowlers(1);"> Bowler2</button>
+              <button type="button" class="list-group-item list-group-item-action  players"><input type = "checkbox" name = "bowler" class = "players" value = "3" onclick="maxBowlers(2);"> Bowler3</button>
+              <button type="button" class="list-group-item list-group-item-action  players"><input type = "checkbox" name = "bowler" class = "players" value = "4" onclick="maxBowlers(3);"> Bowler4</button>
+              <button type="button" class="list-group-item list-group-item-action  players"><input type = "checkbox" name = "bowler" class = "players" value = "5" onclick="maxBowlers(4);"> Bowler5</button>
+              <button type="button" class="list-group-item list-group-item-action  players"><input type = "checkbox" name = "bowler" class = "players" value = "6" onclick="maxBowlers(5);"> Bowler6</button>
+              <button type="button" class="list-group-item list-group-item-action  players"><input type = "checkbox" name = "bowler" class = "players" value = "7" onclick="maxBowlers(6);"> Bowler7</button>
+              <button type="button" class="list-group-item list-group-item-action  players"><input type = "checkbox" name = "bowler" class = "players" value = "8" onclick="maxBowlers(7);"> Bowler8</button>
+              <button type="button" class="list-group-item list-group-item-action  players"><input type = "checkbox" name = "bowler" class = "players" value = "9" onclick="maxBowlers(8);"> Bowler9</button>
+              <button type="button" class="list-group-item list-group-item-action  players"><input type = "checkbox" name = "bowler" class = "players" value = "10" onclick="maxBowlers(9);"> Bowler10</button>
+              <button type="button" class="list-group-item list-group-item-action  players"><input type = "checkbox" name = "bowler" class = "players" value = "11" onclick="maxBowlers(10);"> Bowler11</button>
+            </div>
+            </div>
+
+            <div class="col-sm-3 py-3 wicket-keepers">
+              <h5>WICKET-KEEPERS</h5>
+              <div class="inner-wicket-keeper">
+              <button type="button" class="list-group-item list-group-item-action  players"><input type = "checkbox" name = "wicketKeeper" class = "players" value = "1" onclick="maxWicketKeepers(0);"> Wicket-Keeper1</button>
+              <button type="button" class="list-group-item list-group-item-action  players"><input type = "checkbox" name = "wicketKeeper" class = "players" value = "2" onclick="maxWicketKeepers(1);"> Wicket-Keeper2</button>
+              <button type="button" class="list-group-item list-group-item-action  players"><input type = "checkbox" name = "wicketKeeper" class = "players" value = "3" onclick="maxWicketKeepers(2);"> Wicket-Keeper3</button>
+            </div>
+            </div>
+
+            <div class="col-sm-3 py-3 all-rounders">
+              <h5>ALL-ROUNDERS</h5>
+              <div class="inner-all-rounders">
+              <button type="button" class="list-group-item list-group-item-action  players"><input type = "checkbox" name = "allRounder" class = "players" value = "1" onclick="maxAllRounders(0);"> All-Rounder1</button>
+              <button type="button" class="list-group-item list-group-item-action  players"><input type = "checkbox" name = "allRounder" class = "players" value = "2" onclick="maxAllRounders(1);"> All-Rounder2</button>
+              <button type="button" class="list-group-item list-group-item-action  players"><input type = "checkbox" name = "allRounder" class = "players" value = "3" onclick="maxAllRounders(2);"> All-Rounder3</button>
+              <button type="button" class="list-group-item list-group-item-action  players"><input type = "checkbox" name = "allRounder" class = "players" value = "4" onclick="maxAllRounders(3);"> All-Rounder4</button>
+              <button type="button" class="list-group-item list-group-item-action  players"><input type = "checkbox" name = "allRounder" class = "players" value = "5" onclick="maxAllRounders(4);"> All-Rounder5</button>
+              <button type="button" class="list-group-item list-group-item-action  players"><input type = "checkbox" name = "allRounder" class = "players" value = "6" onclick="maxAllRounders(5);"> All-Rounder6</button>
+            </div>
+            </div>
+            
+          </div>
+    </div>
+
+    
+
+    <div class="bottom-container">
+      <button type="button" class="btn btn-outline-success" id="submit">Submit your team</button>
+      <!-- <table class="table table-dark table-striped" id="teamTable">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Batsmen</th>
+            <th scope="col">Bowlers</th>
+            <th scope="col">Wicket-Keeper</th>
+            <th scope="col">All-Rounders</th>
+          </tr>
+        </thead>
+
+      </table> -->
+
+      <h5 id="bottomText"> Your Team will be displayed Here! </h5>
+      
+      <h5 id="finalTeam"> </h5>
+    
+      
+    </div>
+    
+    
+    <script src="app.js"></script>
+</body>
+</html>
